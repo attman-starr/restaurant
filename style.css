@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+.eerstePagina {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    background-image: url("images/sla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBalk {
+    width: 100vw;
+    height: 70px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0));
+    
+}
+
+.container{
+    width: 80%;
+    
+    
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxleft {
+    
+}
+
+.boxright {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.boxright a {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.herocontent {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.restaurant-naam {
+    margin-bottom: 1.5em;
+    font-size: 4em;
+
+}
+.herobuttons {
+    width: 50%;
+ display: flex;
+    justify-content: space-evenly;
+
+
+}
+.herocontentbutton1 {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    font-size: 15px;
+}
+
+.herocontentbutton1:hover {
+    cursor:pointer
+}
+
+.herocontentbutton2 {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+    font-size: 15px;
+}
+.herocontentbutton2:hover {
+    cursor:pointer
+
+}
+.TweedePagina {
+    background: url("images/pattern.png");
+
+
+}
+.patroon {
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(0,0,0,0.2));
+
+}
+.TweedePaginaContent {
+    display: flex;
+
+
+}
+.TweedePaginaContentLeft {
+    width: 50%;
+    height: 100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.TweedePaginaContentRight {
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(204,153,0);
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+p {
+    color: rgb(100,100,100);
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.TweedePaginaParagraaf {
+    margin-bottom: 1em;
+
+}
+.TotaleDerdePagina {
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em
+}
+.DerdePaginaLeft {
+    height: 100%;
+    width: 50%;
+
+}
+.DerdePaginaRight {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DerdePaginaContentRight {
+    width:80%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 70px
+
+}
+.derdePaginaContentRightImages {
+    display:flex;
+    justify-content: space-evenly;
+}
+.DerdePaginaParagraaf {
+    margin-bottom: 1.5em;
+    color: rgb(600,600,600);
+    text-align: center;
+    font-size: 26px;
+}
+
